@@ -1,43 +1,13 @@
 =====================
-ColorPickerPreference
+ColorPickerPreference with HoloEverywhere
 =====================
-
-Generally used classes by Daniel Nilsson.
-ColorPickerPreference class by Sergey Margaritov.
-Packed by Sergey Margaritov.
-
-Features
-========
-
-* Color Area
-* Hue Slider
-* Alpha Slider (disabled by default)
-* Old & New Color
-* Color Preview in Preferences List
-
-Requirements
-============
-
-Tested with APIv7, but maybe will work with early versions
-
-Usage
-=====
-
-You can see some tests inside
-
-::
+This is a fork of this project: https://github.com/attenzione/android-ColorPickerPreference. The difference is that this project supports the HoloEverywhere library (https://github.com/ChristopheVersieux/HoloEverywhere). You will need to download the library and add it as a library project yourself. After doing this, the widget can be added as follows:
 
     <net.margaritov.preference.colorpicker.ColorPickerPreference
-        android:key="color1"
-        android:title="@string/color1_title"
-        android:summary="@string/color1_summary"
-        android:defaultValue="@color/pumpkin_orange"    <!-- integer resources are also accepted -->
-        alphaSlider="true"                              <!-- enable alpha slider via XML -->
-    />
-
-To enable Alpha Slider in your code use function:
-::
-    setAlphaSliderEnabled(boolean enable)
+        holo:key="color1"
+        holo:title="@string/color1_title"
+        holo:summary="@string/color1_summary"
+        holo:defaultValue="@color/pumpkin_orange" />
 
 Screens
 =======

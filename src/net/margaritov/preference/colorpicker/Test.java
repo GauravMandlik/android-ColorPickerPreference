@@ -16,12 +16,11 @@
 
 package net.margaritov.preference.colorpicker;
 
-import net.margaritov.preference.colorpicker.R;
+import org.holoeverywhere.preference.Preference;
+import org.holoeverywhere.preference.Preference.OnPreferenceChangeListener;
+import org.holoeverywhere.preference.PreferenceActivity;
 
 import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceActivity;
 
 public class Test extends PreferenceActivity {
     /** Called when the activity is first created. */
