@@ -1,7 +1,7 @@
 =====================
 ColorPickerPreference with HoloEverywhere
 =====================
-This is a fork of this project: https://github.com/attenzione/android-ColorPickerPreference. The difference is that this project supports the HoloEverywhere library (https://github.com/ChristopheVersieux/HoloEverywhere). You will need to download the library and add it as a library project yourself. After doing this, the widget can be added as follows:
+This is a fork of this project: https://github.com/attenzione/android-ColorPickerPreference. The difference is that this project supports the HoloEverywhere library (https://github.com/Prototik/HoloEverywhere). You will need to download the library and add it as a library project yourself. After doing this, the widget can be added as follows:
 
     <net.margaritov.preference.colorpicker.ColorPickerPreference
         holo:key="color1"
